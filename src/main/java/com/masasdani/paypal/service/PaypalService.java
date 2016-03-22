@@ -6,8 +6,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.masasdani.paypal.model.PaypalPaymentIntent;
-import com.masasdani.paypal.model.PaypalPaymentMethod;
+import com.masasdani.paypal.config.PaypalPaymentIntent;
+import com.masasdani.paypal.config.PaypalPaymentMethod;
 import com.paypal.api.payments.Amount;
 import com.paypal.api.payments.Payer;
 import com.paypal.api.payments.Payment;

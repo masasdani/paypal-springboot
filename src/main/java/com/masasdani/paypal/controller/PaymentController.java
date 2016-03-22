@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.masasdani.paypal.model.PaypalPaymentIntent;
-import com.masasdani.paypal.model.PaypalPaymentMethod;
+import com.masasdani.paypal.config.PaypalPaymentIntent;
+import com.masasdani.paypal.config.PaypalPaymentMethod;
 import com.masasdani.paypal.service.PaypalService;
 import com.masasdani.paypal.util.URLUtils;
 import com.paypal.api.payments.Links;

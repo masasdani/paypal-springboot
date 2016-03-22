@@ -1,4 +1,4 @@
-package com.masasdani.paypal.model;
+package com.masasdani.paypal.config;
 
 public enum PaypalPaymentIntent {
 
