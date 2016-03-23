@@ -11,8 +11,7 @@ Prerequisites:
 
 Usage
 =====
-to run this sample, please at first crete paypal account and register your apps to http://developer.paypal.com
-change paypal configuration in src/main/resource/application.properties
+to run this sample, please at first crete paypal account and register your apps to http://developer.paypal.com, get your app configuration and then change paypal configuration in src/main/resource/application.properties of your project
 
 		
 		paypal.mode=sandbox
@@ -23,7 +22,7 @@ change paypal configuration in src/main/resource/application.properties
 Then run it using maven :
 
 		
-		maven spring-boot:run
+		mvn spring-boot:run
 		
 
 Test in your browser : 
