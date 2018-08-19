@@ -1,5 +1,7 @@
 package com.masasdani.paypal.service;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -33,6 +35,7 @@ public class PaypalService {
 			String successUrl) throws PayPalRESTException{
 		Amount amount = new Amount();
 		amount.setCurrency(currency);
+		total = new BigDecimal(total).setScale(2, RoundingMode.HALF_UP).doubleValue();
 		amount.setTotal(String.format("%.2f", total));
 
 		Transaction transaction = new Transaction();
